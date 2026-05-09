@@ -1,7 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
 
-
-
 let tl = gsap.timeline({paused:true}) 
 tl.to(".menu",{
   right:"0%",
