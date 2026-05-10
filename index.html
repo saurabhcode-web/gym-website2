@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,11 @@
 <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-
+<div class="loader">
+  <h1>STAR GYM<br>
+  NO Pain No Gain
+  </h1>
+</div>
 <!-- NAVBAR -->
 <header>
   <div class="logo">POWERFIT <span>GYM</span></div>
@@ -25,7 +28,9 @@
 
   <button class="join-btn">Join Now</button>
   <div class="menu-toggle">
-
+<span></span>
+<span></span>
+<span></span>
 </div>
 
 </header>
@@ -281,11 +286,16 @@
     </div>
     
     <form class="contact-form">
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Your Email">
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+  
+  <input type="text" id="name" placeholder="Your Name">
+  
+  <input type="email" id="email" placeholder="Your Email">
+  
+  <textarea id="text-message" placeholder="Your Message"></textarea>
+  
+  <button id="btn" type="submit">Send Message</button>
+  
+</form>
     
   </div>
 </section>
